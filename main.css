@@ -1,0 +1,66 @@
+.content-body {
+    margin: 0;
+    height: 100vh;
+    background: url(img/background.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+} 
+.navbar {
+    float: right;
+    margin: 3% 7% 0 0;
+}
+.hello-summer {
+    position: relative;
+    bottom: 32px;
+    max-width: 100%;
+    height: auto;
+    width: 680px
+}
+
+.logo {
+    position: relative;
+    bottom: 147px;
+    max-width: 100%;
+    height: auto;
+    width: 511px;
+    /* height: 509px; */
+}
+ 
+a {
+    color: #04275a !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+.redes {
+    max-width: 58px;
+}  
+
+.enlaces-redes {
+    position: absolute;
+    bottom: 112px;
+    left: 83%;
+}
+.slogan {
+    max-width: 371px;
+    position: absolute;
+    bottom: 73px;
+}
+.img-contents {
+    height: 638;
+}
+
+@media only creen and (max-width: 620px) {
+    /* For mobile phones: */
+     .logo {
+      /*  position: relative;*/
+        bottom: 56px;
+    } 
+}
